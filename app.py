@@ -1,5 +1,6 @@
 from flask import Flask,render_template,redirect,request
 from flask_mail import Mail
+from jinja2 import escape
 app = Flask(__name__)
 
 app.config.update(
